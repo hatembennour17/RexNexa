@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RxNexa Admin</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>Admin Editor</h1>
+      <p class="muted">Edit site content JSON (no backend). Export and replace <code>content/site.json</code> on your host.</p>
+
+      <div class="row gap wrap">
+        <button id="loadBtn" class="btn">Load current JSON</button>
+        <button id="formatBtn" class="btn ghost">Format JSON</button>
+        <button id="downloadBtn" class="btn">Download site.json</button>
+      </div>
+
+      <div class="spacer"></div>
+      <textarea id="editor" class="editor" spellcheck="false"></textarea>
+      <div id="status" class="muted small"></div>
+    </section>
+  </main>
+
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

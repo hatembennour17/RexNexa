@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RxNexa</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container row space">
+      <div class="row gap">
+        <img id="logo" class="logo" alt="RxNexa logo" />
+        <div>
+          <div id="brandName" class="brand"></div>
+          <div id="brandTagline" class="muted small"></div>
+        </div>
+      </div>
+
+      <nav class="row gap">
+        <a href="#stakeholder">Stakeholders</a>
+        <a href="#storyboard">Storyboard</a>
+        <a href="#outcomes">Outcomes</a>
+        <a href="#contact" class="btn small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <div class="heroGrid">
+        <div>
+          <h1 id="heroHeadline"></h1>
+          <p id="heroSubheadline" class="muted"></p>
+          <div class="row gap">
+            <a id="heroCta1" class="btn" href="#contact"></a>
+            <a id="heroCta2" class="btn ghost" href="#storyboard"></a>
+          </div>
+        </div>
+        <div class="heroMedia">
+          <img id="heroImage" alt="RxNexa hero" />
+        </div>
+      </div>
+    </section>
+
+    <div id="sections"></div>
+
+    <section class="card" id="galleryWrap">
+      <div class="row space">
+        <h2 id="galleryTitle"></h2>
+      </div>
+      <div id="gallery" class="gallery"></div>
+    </section>
+
+    <section class="card" id="contact">
+      <h2 id="contactTitle"></h2>
+      <p id="contactSubtitle" class="muted"></p>
+      <div class="row gap wrap">
+        <div class="pill"><strong>Email:</strong> <span id="contactEmail"></span></div>
+        <div class="pill"><strong>Phone:</strong> <span id="contactPhone"></span></div>
+      </div>
+    </section>
+
+    <footer class="muted small center pad">
+      © <span id="year"></span> RxNexa. <span class="muted">Admin: /admin.html</span>
+    </footer>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
